@@ -1,0 +1,1 @@
+ [System.Environment]::SetEnvironmentVariable("Path", $env:Path + ";c:\program files\python36\")
