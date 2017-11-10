@@ -1,4 +1,9 @@
-using System;
+// -----------------------------------------------------------------------
+// <copyright file="UnitTest1.cs" company="ZubeNET">
+//   Copyright...
+// </copyright>
+// -----------------------------------------------------------------------
+
 using Xunit;
 
 namespace RayTraceCSharpLibTests
@@ -8,7 +13,6 @@ namespace RayTraceCSharpLibTests
         [Fact]
         public void Test1()
         {
-
         }
     }
 }
