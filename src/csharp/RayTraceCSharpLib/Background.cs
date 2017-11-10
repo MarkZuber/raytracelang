@@ -7,13 +7,13 @@
 namespace RayTraceCSharpLib
 {
     /// <summary>
-    ///     defines the background of the scene
-    ///     for now it only supports a background color and an ambience value, for ambient lighting
+    /// defines the background of the scene
+    /// for now it only supports a background color and an ambience value, for ambient lighting
     /// </summary>
     public class Background
     {
         /// <summary>
-        ///     specifies the background of the scene
+        /// specifies the background of the scene
         /// </summary>
         /// <param name="color">the color of the background</param>
         /// <param name="ambience">the ambient lighting used [0,1]</param>

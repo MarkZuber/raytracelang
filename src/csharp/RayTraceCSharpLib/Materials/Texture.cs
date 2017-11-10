@@ -22,13 +22,13 @@ namespace RayTraceCSharpLib.Materials
         public int Width { get; }
 
         /// <summary>
-        ///     creates a 'ColorMap' of the bitmap
-        ///     this is basically a lookuptable, used to enhance the performance
+        /// creates a 'ColorMap' of the bitmap
+        /// this is basically a lookuptable, used to enhance the performance
         /// </summary>
         /// <param name="filename"></param>
         /// <returns></returns>
         /// <summary>
-        ///     loads a texture image from file.
+        /// loads a texture image from file.
         /// </summary>
         public static Texture FromFile(string filename)
         {
