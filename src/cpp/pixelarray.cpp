@@ -10,12 +10,16 @@ PixelArray::~PixelArray()
 {
 }
 
-int PixelArray::GetWidth()
+void PixelArray::SetPixel(int x, int y, const Vector &color)
+{
+}
+
+int PixelArray::GetWidth() const
 {
     return _width;
 }
 
-int PixelArray::GetHeight()
+int PixelArray::GetHeight() const
 {
     return _height;
 }

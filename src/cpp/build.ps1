@@ -1,5 +1,5 @@
-mkdir build
-cd build
+mkdir bin
+cd bin
 cmake ..
 cmake --build .
 cd ..
